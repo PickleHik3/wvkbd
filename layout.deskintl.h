@@ -194,8 +194,8 @@ static struct key keys_full[] = {
   {"\\", "|", 1.0, Code, KEY_BACKSLASH},
   {"", "", 0.0, EndRow},
 
-  {"Cmp", "Cmp", 1.0, Compose, .scheme = 1},
-  {"Caps", "Caps", 1.0, Mod, CapsLock, .scheme = 1},
+  {"", "", 0.0, Pad, .scheme = 1},
+  {"Caps", "Caps", 2.0, Mod, CapsLock, .scheme = 1},
   {"a", "A", 1.0, Code, KEY_A, &layouts[ComposeA]},
   {"s", "S", 1.0, Code, KEY_S, &layouts[ComposeS]},
   {"d", "D", 1.0, Code, KEY_D, &layouts[ComposeD]},
@@ -225,8 +225,8 @@ static struct key keys_full[] = {
   {"⇧", "⇫", 1.0, Mod, Shift, .scheme = 1},
   {"", "", 0.0, EndRow},
 
-  {"⌨͕", "⌨͔", 1.5, NextLayer, .scheme = 1},
-  {"Ctr", "Ctr", 1.0, Mod, Ctrl, .scheme = 1},
+  {"", "", 0.0, Pad, .scheme = 1},
+  {"Ctr", "Ctr", 2.5, Mod, Ctrl, .scheme = 1},
   {"Sup", "Sup", 1.0, Mod, Super, .scheme = 1},
   {"Alt", "Alt", 1.0, Mod, Alt, .scheme = 1},
   {"", "", 5.0, Code, KEY_SPACE},
@@ -259,8 +259,8 @@ static struct key keys_special[] = {
   {"⇧", "⇫", 1.0, Mod, Shift, .scheme = 1},
   {"", "", 0.0, EndRow},
 
-  {"⌨͕", "⌨͔", 0.75, NextLayer, .scheme = 1},
-  {"Abc", "Abc", 0.75, BackLayer, .scheme = 1},
+  {"", "", 0.0, Pad, .scheme = 1},
+  {"Abc", "Abc", 1.5, BackLayer, .scheme = 1},
 
   {"Ctr", "Ctr", 1.0, Mod, Ctrl, .scheme = 1},
   {"Sup", "Sup", 1.0, Mod, Super, .scheme = 1},
@@ -324,8 +324,8 @@ static struct key keys_cyrillic[] = {
   {"\\", "|", 1.0, Code, KEY_BACKSLASH},
   {"", "", 0.0, EndRow},
 
-  {"Cmp", "Cmp", 1.0, Compose, .scheme = 1},
-  {"Caps", "Caps", 1.0, Mod, CapsLock, .scheme = 1},
+  {"", "", 0.0, Pad, .scheme = 1},
+  {"Caps", "Caps", 2.0, Mod, CapsLock, .scheme = 1},
   {"ф", "Ф", 1.0, Code, KEY_A},
   {"ы", "Ы", 1.0, Code, KEY_S, &layouts[ComposeCyrI]},
   {"в", "В", 1.0, Code, KEY_D},
@@ -355,8 +355,8 @@ static struct key keys_cyrillic[] = {
   {"⇧", "⇫", 1.0, Mod, Shift, .scheme = 1},
   {"", "", 0.0, EndRow},
 
-  {"⌨͕", "⌨͔", 1.5, NextLayer, .scheme = 1},
-  {"Ctr", "Ctr", 1.0, Mod, Ctrl, .scheme = 1},
+  {"", "", 0.0, Pad, .scheme = 1},
+  {"Ctr", "Ctr", 2.5, Mod, Ctrl, .scheme = 1},
   {"Sup", "Sup", 1.0, Mod, Super, .scheme = 1},
   {"Alt", "Alt", 1.0, Mod, Alt, .scheme = 1},
   {"", "", 5.0, Code, KEY_SPACE},

@@ -8,3 +8,4 @@ include/config.h
 *.1
 build-*/*
 wvkbd-*
+bin/
