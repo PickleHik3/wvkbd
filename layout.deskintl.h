@@ -209,17 +209,15 @@ static struct key keys_full[] = {
   {"⇧", "⇫", 1.25, Mod, Shift, .scheme = 1},
   {"", "", 0.0, EndRow},
 
-  {"", "", 0.25, Pad, .scheme = 1},
   {"Sym", "Sym", 1.0, Layout, 0, &layouts[Special], .scheme = 1},
   {"Ctr", "Ctr", 1.0, Mod, Ctrl, .scheme = 1},
   {"Sup", "Sup", 1.0, Mod, Super, .scheme = 1},
   {"Alt", "Alt", 1.0, Mod, Alt, .scheme = 1},
-  {"", "", 6.0, Code, KEY_SPACE},
+  {"", "", 6.5, Code, KEY_SPACE},
   {"AGr", "AGr", 1.0, Mod, AltGr, .scheme = 1},
   {"←", "←", 1.0, Code, KEY_LEFT, .scheme = 1},
   {"↓", "↓", 1.0, Code, KEY_DOWN, .scheme = 1},
   {"→", "→", 1.0, Code, KEY_RIGHT, .scheme = 1},
-  {"", "", 0.25, Pad, .scheme = 1},
   /* end of layout */
   {"", "", 0.0, Last},
 };
@@ -336,17 +334,15 @@ static struct key keys_cyrillic[] = {
   {"⇧", "⇫", 1.25, Mod, Shift, .scheme = 1},
   {"", "", 0.0, EndRow},
 
-  {"", "", 0.25, Pad, .scheme = 1},
   {"Sym", "Sym", 1.0, Layout, 0, &layouts[Special], .scheme = 1},
   {"Ctr", "Ctr", 1.0, Mod, Ctrl, .scheme = 1},
   {"Sup", "Sup", 1.0, Mod, Super, .scheme = 1},
   {"Alt", "Alt", 1.0, Mod, Alt, .scheme = 1},
-  {"", "", 6.0, Code, KEY_SPACE},
+  {"", "", 6.5, Code, KEY_SPACE},
   {"AGr", "AGr", 1.0, Mod, AltGr, .scheme = 1},
   {"←", "←", 1.0, Code, KEY_LEFT, .scheme = 1},
   {"↓", "↓", 1.0, Code, KEY_DOWN, .scheme = 1},
   {"→", "→", 1.0, Code, KEY_RIGHT, .scheme = 1},
-  {"", "", 0.25, Pad, .scheme = 1},
   /* end of layout */
   {"", "", 0.0, Last},
 };
